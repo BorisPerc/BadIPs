@@ -14,7 +14,7 @@ YOU CAN PUT IN YOUR MALTRAIL CUSTOM URL:
 
 <a href="https://piramide.zapto.org/iplist.txt" title="BadIP List PCSNET"><h1 style="color:green;">https://piramide.zapto.org/iplist.txt</h1></a>
 
-OR PRIVATE LIST AUTO PCSNET@2020
+OR PRIVATE LIST AUTO-UPDATE PCSNET@2020
 
 <a href="https://piramide.zapto.org/iplist-pcsnet.txt" title="BadIP List PCSNET"><h1 style="color:green;">https://piramide.zapto.org/iplist-pcsnet.txt</h1></a>
 
