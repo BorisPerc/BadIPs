@@ -1,0 +1,2 @@
+# BadIPs
+BadIPs List PCSNET
