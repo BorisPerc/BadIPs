@@ -31,4 +31,5 @@ OR PRIVATE LIST AUTO-UPDATE PCSNET@2020 CUMULATIVE LIST
 
 <a href="https://pcsnet.myftp.org/" title="Piramide Studio NET" ><img src="https://piramide.zapto.org/i/education_pcs.png" /></a>
 
-
+BadIP list for CMS Systems
+<a href="https://perc.ddns.net/ip.txt" title="BadIP List for CMS Systems Wordpress/Drupal/Joomla"><h1 style="color:green;">https://perc.ddns.net/ip.txt</h1></a>
