@@ -12,8 +12,19 @@ BadIP List Piramide Studio NET
 DIRECT TXT FILE ACCESS:
 ![maltrailcustomblocklist](https://user-images.githubusercontent.com/27965834/221394264-90eb74a7-0867-4938-89ae-6c2dcc5b5711.jpg)
 
-YOU CAN PUT IN YOUR MALTRAIL CUSTOM URL LIVE LIST IS ON PERC.DDNS.NET STATIC LIST IS ON PIRAMIDE.ZAPTO.ORG - FOR MALTRAIL https://github.com/stamparm/maltrail
-Custom trails config put this URL: https://perc.ddns.net/iplist-pcsnet.txt or live list https://perc.ddns.net/iplist.txt example maltrail.conf
+YOU CAN PUT IN YOUR MALTRAIL CUSTOM URL LIVE LIST IS ON PERC.DDNS.NET STATIC LIST IS ON PIRAMIDE.ZAPTO.ORG 
+
+# FOR MALTRAIL <a href="https://github.com/stamparm/maltrail" title="MalTrail">https://github.com/stamparm/maltrail</a>
+
+Custom trails config put this 
+
+URL: https://perc.ddns.net/iplist-pcsnet.txt 
+
+or live list 
+
+https://perc.ddns.net/iplist.txt 
+
+# example maltrail.conf
 <code>
 # Use remote custom feed (too) in trail updates
 #CUSTOM_TRAILS_URL http://www.test.com/custom.txt
