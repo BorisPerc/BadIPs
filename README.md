@@ -44,3 +44,4 @@ OR PRIVATE LIST AUTO-UPDATE PCSNET@2020 CUMULATIVE LIST
 
 BadIP list for CMS Systems
 <a href="https://perc.ddns.net/ip.txt" title="BadIP List for CMS Systems Wordpress/Drupal/Joomla"><h1 style="color:green;">https://perc.ddns.net/ip.txt</h1></a>
+<a href="https://perc.ddns.net/cms.txt" title="BadIP List for CMS Systems Wordpress/Drupal"><h1 style="color:green;">https://perc.ddns.net/cms.txt</h1></a>
