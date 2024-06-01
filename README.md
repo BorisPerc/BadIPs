@@ -49,9 +49,9 @@ BadIP list for CMS Systems
 # Config Fail2Ban for MalTrail
 
 Edit custom filter for example maltrail.conf
-
+```
 sudo nano /etc/fail2ban/filter.d/maltrail.conf
-
+```
 ## How to CONGIGURE MALTRAIL AND FAIL2BAN to block Malware Activity on your server:
 ## for hostname use your hostname of your server and for IP x\.x\.x\.x use your IP or your server:
 ```
