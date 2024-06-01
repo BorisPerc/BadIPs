@@ -54,41 +54,41 @@ sudo nano /etc/fail2ban/filter.d/maltrail.conf
 
 ## How to CONGIGURE MALTRAIL AND FAIL2BAN to block Malware Activity on your server:
 ## for hostname use your hostname of your server and for IP x\.x\.x\.x use your IP or your server:
-
+```
             ^.*hostname\.com <HOST> \d+ x\.x\.x\.x .*(attacker|scanner|reputation).*
-
+```
 # My example no.1:
-
+```
 [Definition]
 
 failregex =  ^.*hostname <HOST> \d+ 192\.168\.0\.100 .*(malware|sinkhole|andromeda|potential|attacker|scanner|reputation|suspicious).*
 
 ignoreregex = 
 
-
+```
 # My example no.2:
-
+```
 [Definition]
 
 failregex =  ^.*hostname <HOST>.*192.168.0.100 (21|25|110|53|80|443|143|465|993|995|587|10000|8338) (TCP|UDP).*(reputation|malware|malicious|iot-malware|download|andromeda|sinkhole|conficker|potential|remote|code|execution|probe|config|file|access|systembc|xss|injection|non-existent|directory|traversal|php|onion|emotet|cobaltstrike|blacklisted).* 
 
                         
 ignoreregex = 
-
+```
 # My example no.3:
-
+```
 [Definition]
 
 failregex =  ^.*hostname\.com <HOST> \d+ 192\.168\.0\.100 .*(malware|sinkhole|andromeda|potential|attacker|scanner|reputation|suspicious).*
 
 ignoreregex = 
-
+```
 ## Custom jail config Maltrail:
-
+```
 sudo nano /etc/fail2ban/jail.local
-
+```
 Copy this in the end of file
-
+```
 [maltrail]
 
 enabled    = true
@@ -110,12 +110,13 @@ protocol   = all
 blocktype  = RETURN
 
 returntype = DROP
-
+```
 
 # Config Fail2Ban for MalTrail login protection
-
+```
 sudo nano /etc/fail2ban/filter.d/maltrail.conf
-
+```
+```
 [INCLUDES]
 
 before = common.conf
@@ -130,13 +131,13 @@ failregex = ^%(__prefix_line)sFailed password for.* from <HOST> port.*
             .*[hostname] maltrail.*Failed password for.* from <HOST> port.*
 
 ignoreregex = .*Failed password for None from <HOST>.*
-
+```
 ## Custom jail config Maltrail-AUTH:
-
+```
 sudo nano /etc/fail2ban/jail.local
-
+```
 Copy this in the end of file
-
+```
 [maltrail-auth]
 
 enabled    = true
@@ -163,5 +164,5 @@ blocktype  = RETURN
 
 returntype = DROP
 
-
+```
 
