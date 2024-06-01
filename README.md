@@ -84,20 +84,31 @@ failregex =  ^.*hostname\.com <HOST> \d+ 192\.168\.0\.100 .*(malware|sinkhole|an
 ignoreregex = 
 
 ## Custom jail config Maltrail:
+
 sudo nano /etc/fail2ban/jail.local
 
 Copy this in the end of file
 
 [maltrail]
+
 enabled    = true
-filter 	   = maltrail
+
+filter     = maltrail
+
 logpath    = /var/log/maltrail/*-*-*.log
-port 	     = all
+
+port       = all
+
 maxretry   = 1
+
 bantime    = 1h
+
 banaction  = %(banaction_allports)s
+
 protocol   = all
+
 blocktype  = RETURN
+
 returntype = DROP
 
 
@@ -108,14 +119,15 @@ sudo nano /etc/fail2ban/filter.d/maltrail.conf
 [INCLUDES]
 
 before = common.conf
-#before = apache-common.conf
+
 
 [Definition]
 
 _daemon = maltrail-auth
 
 failregex = ^%(__prefix_line)sFailed password for.* from <HOST> port.*
-            .*piramidstudio maltrail.*Failed password for.* from <HOST> port.*
+
+            .*[hostname] maltrail.*Failed password for.* from <HOST> port.*
 
 ignoreregex = .*Failed password for None from <HOST>.*
 
@@ -126,18 +138,29 @@ sudo nano /etc/fail2ban/jail.local
 Copy this in the end of file
 
 [maltrail-auth]
+
 enabled    = true
-filter 	   = maltrail-auth
-# logpath  	= /var/log/auth.log
+
+filter     = maltrail-auth
+
 logpath    = %(syslog_authpriv)s
+
 backend    = %(syslog_backend)s
-port 	     = all
+
+port       = all
+
 maxretry   = 3
+
 bantime    = 1h
+
 banaction  = %(banaction_allports)s
-action 	   = %(action_mwl)s
+
+action     = %(action_mwl)s
+
 protocol   = all
+
 blocktype  = RETURN
+
 returntype = DROP
 
 
