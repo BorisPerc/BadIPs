@@ -114,7 +114,7 @@ returntype = DROP
 
 # Config Fail2Ban for MalTrail login protection
 ```
-sudo nano /etc/fail2ban/filter.d/maltrail.conf
+sudo nano /etc/fail2ban/filter.d/maltrail-auth.conf
 ```
 ```
 [INCLUDES]
