@@ -116,6 +116,15 @@ blocktype  = RETURN
 returntype = DROP
 ```
 
+## INFO FOR FAIL2BAN NEW LOGS
+
+## Best option to recive new log at 00:00 from fail2ban for maltrail is cronjob as root example:
+```
+5 0-3 * * * systemctl reload fail2ban #Reload fail2Ban for new hash log Maltrail
+
+17 1 * * * systemctl restart maltrail-sensor.service && systemctl restart maltrail-server.service #Restart Maltrail Sensor & Server
+```
+
 # Config Fail2Ban for MalTrail login protection
 ```
 sudo nano /etc/fail2ban/filter.d/maltrail-auth.conf
