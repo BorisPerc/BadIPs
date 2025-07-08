@@ -178,4 +178,19 @@ blocktype  = RETURN
 returntype = DROP
 
 ```
-
+```
+BadIPs auto post:
+https://pcsnet.mywire.org/iplist.txt
+https://pcsnet.mywire.org/iplist-pcsnet.txt
+https://pcsnet.mywire.org/iplist-cms.txt
+https://pcsnet.mywire.org/iplist-combined.txt
+https://pcsnet.mywire.org/iplist-malware.txt
+https://pcsnet.mywire.org/iplist-server.txt
+https://pcsnet.mywire.org/iplist-world.txt
+https://pcsnet.mywire.org/iplist-shadow.txt
+https://pcsnet.mywire.org/iplist-ipsum.txt
+https://pcsnet.mywire.org/iplist-abuseip.txt
+https://pcsnet.mywire.org/iplist-blocklistde.txt
+https://pcsnet.mywire.org/iplist-sum.txt
+https://pcsnet.mywire.org/ip.blacklist
+```
