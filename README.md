@@ -1,12 +1,12 @@
 # BadIPs
 BadIPs List PCSNET
 
-BadIP List Piramide Studio NET
+BadIP List Piramide Studio NET ALL TXT FILES AUTOUPDATED 4-6× PER DAY
 
-<a href="https://perc.ddns.net/iplist.txt" title="BadIP List PCSNET Live list"><h1 style="color:green;">BADIP LIST PIRAMIDE STUDIO NET LIVE LIST & CUMULATIVE LIST FIREWALL</h1></a>
-<a href="https://piramide.zapto.org/iplist.txt" title="BadIP List PCSNET"><h1 style="color:green;">BADIP LIST PIRAMIDE STUDIO NET STATIC LIST</h1></a>
+<a href="https://pcsnet.mywire.org/iplist.txt" title="BadIP List PCSNET Live list"><h1 style="color:green;">BADIP LIST PIRAMIDE STUDIO NET LIVE LIST & CUMULATIVE LIST FIREWALL</h1></a>
+<a href="https://pcsnet.mywire.org/ip.blacklist" title="BadIP List PCSNET"><h1 style="color:green;">BADIP LIST PIRAMIDE STUDIO NET STATIC LIST</h1></a>
 
-<a href="https://perc.ddns.net/iplist-pcsnet.txt" title="BAD IPS LIST DOWNLOAD TXT File Comulative list 24h autoupdate WinNTServer/Linux PCSNET" ><img src="[https://piramide.zapto.org](https://bsn-142-197-202.static.siol.net)/i/123enigmaddl.png" /></a>
+<a href="https://pcsnet.mywire.org/iplist-pcsnet.txt" title="BAD IPS LIST DOWNLOAD TXT File Comulative list 24h autoupdate WinNTServer/Linux PCSNET" ><img src="[https://pcsnet.mywire.org](https://pcsnet.mywire.org)/i/123enigmaddl.png" /></a>
 
 
 DIRECT TXT FILE ACCESS:
@@ -18,22 +18,20 @@ YOU CAN PUT IN YOUR MALTRAIL CUSTOM URL LIVE LIST IS ON PERC.DDNS.NET STATIC LIS
 
 Custom trails config put this 
 
-URL: https://perc.ddns.net/iplist-pcsnet.txt 
+URL: https://pcsnet.mywire.org/iplist-pcsnet.txt 
 
-or live list 
-
-https://perc.ddns.net/iplist.txt 
+URL: https://pcsnet.mywire.org/iplist.txt 
 
 # example maltrail.conf
 <code>
 # Use remote custom feed (too) in trail updates
 #CUSTOM_TRAILS_URL http://www.test.com/custom.txt
-CUSTOM_TRAILS_URL https://perc.ddns.net/iplist-pcsnet.txt
+CUSTOM_TRAILS_URL https://pcsnet.mywire.org/iplist-pcsnet.txt
 </code>
 
 <a href="https://perc.ddns.net/iplist.txt" title="BadIP List PCSNET"><h1 style="color:green;">https://perc.ddns.net/iplist.txt</h1></a>
 
-<a href="https://piramide.zapto.org/iplist.txt" title="BadIP List PCSNET"><h1 style="color:green;">https://piramide.zapto.org/iplist.txt</h1></a>
+<a href="https://pcsnet.mywire.org/iplist.txt" title="BadIP List PCSNET"><h1 style="color:green;">https://pcsnet.mywire.org/iplist.txt</h1></a>
 
 OR PRIVATE LIST AUTO-UPDATE Piramide Studio NET CUMULATIVE LISTs - FOR HOME USE ONLY
 
@@ -46,8 +44,8 @@ OR PRIVATE LIST AUTO-UPDATE Piramide Studio NET CUMULATIVE LISTs - FOR HOME USE 
 
 <a href="https://pcsnet.myftp.org/" title="Piramide Studio NET" ><img src="https://bsn-142-197-202.static.siol.net/i/education_pcs.png" /></a>
 
-BadIP list for CMS Systems
-<a href="https://pcsnet.mywire.org/iplist-cms.txt" title="BadIP List for CMS Systems Wordpress/Drupal/Joomla"><h1 style="color:green;">https://pcsnet.mywire.org/iplist-cms.txt</h1></a>
+# BadIP list for CMS Systems
+<a href="https://pcsnet.mywire.org/ips-cms.txt" title="BadIP List for CMS Systems Wordpress/Drupal/Joomla"><h1 style="color:green;">https://pcsnet.mywire.org/ips-cms.txt</h1></a>
 <a href="https://perc.ddns.net/iplist-cms.txt" title="BadIP List for CMS Systems Wordpress/Drupal/Joomla"><h1 style="color:green;">https://perc.ddns.net/iplist-cms.txt</h1></a>
 
 # Config Fail2Ban for MalTrail
@@ -178,19 +176,23 @@ blocktype  = RETURN
 returntype = DROP
 
 ```
+_________________________________________________________
 ```
 BadIPs auto post:
-https://pcsnet.mywire.org/iplist.txt
-https://pcsnet.mywire.org/iplist-pcsnet.txt
-https://pcsnet.mywire.org/iplist-cms.txt
-https://pcsnet.mywire.org/iplist-combined.txt
-https://pcsnet.mywire.org/iplist-malware.txt
-https://pcsnet.mywire.org/iplist-server.txt
-https://pcsnet.mywire.org/iplist-world.txt
-https://pcsnet.mywire.org/iplist-shadow.txt
-https://pcsnet.mywire.org/iplist-ipsum.txt
-https://pcsnet.mywire.org/iplist-abuseip.txt
-https://pcsnet.mywire.org/iplist-blocklistde.txt
-https://pcsnet.mywire.org/iplist-sum.txt
-https://pcsnet.mywire.org/ip.blacklist
+https://psmedia.mywire.org/ip.blacklist
+https://psmedia.mywire.org/iplist-abuseip.txt
+https://psmedia.mywire.org/iplist-blocklistde.txt
+https://psmedia.mywire.org/iplist-cms.txt
+https://psmedia.mywire.org/iplist-combined.txt
+https://psmedia.mywire.org/iplist-enhanced.txt
+https://psmedia.mywire.org/iplist-ipsum.txt
+https://psmedia.mywire.org/iplist-malware.txt
+https://psmedia.mywire.org/iplist-pcsnet.txt
+https://psmedia.mywire.org/iplist-server.txt
+https://psmedia.mywire.org/iplist-shadow.txt
+https://psmedia.mywire.org/iplist-sum.txt
+https://psmedia.mywire.org/iplist-world.txt
+https://psmedia.mywire.org/iplist.txt
+https://psmedia.mywire.org/ips-cms.txt
+https://psmedia.mywire.org/iplist-emergingthreats.txt
 ```
